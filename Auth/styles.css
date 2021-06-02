@@ -1,0 +1,69 @@
+h1{
+	color: green;
+	padding: 5px 30px;
+}
+  
+.msguser
+{
+	color: #00DD00;
+}
+.msgdefault
+{
+	color: yellow;
+}
+.msgserver
+{
+	color: white;
+}
+  
+html {
+	box-sizing: border-box;
+}
+  
+  
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: Consolas;
+	background-color: black;
+}
+  
+.msger {
+	display: flex;
+	flex-flow: column wrap;
+	width: 100%;
+	max-width: 867px;
+	margin: 25px 10px;
+	height: calc(100% - 50px);
+	border: 2px solid green;
+	border-radius: 5px;
+	background-color: black;
+}
+
+.msger-chat {
+	flex: 1;
+	overflow-y: auto;
+	padding: 5px 30px;
+	background-color: #303030;
+}
+
+  
+.msger-inputarea {
+	display: flex;
+	padding: 10px;
+}
+.msger-input {
+	flex: 1;
+	background: #000000;
+	padding: 5px;
+	color: #00DD00;
+}
+.msger-send-btn {
+	margin-left: 10px;
+	background: gray;
+	color: #00DD00;
+	cursor: pointer;
+}
+  
